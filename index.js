@@ -39,36 +39,3 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
-
-// $(".owl-carousel").owlCarousel({
- 
-//     //Basic Speeds
-//     slideSpeed : 200,
-//     paginationSpeed : 800,
- 
-//     //Autoplay
-//     autoPlay : false,
-//     goToFirst : true,
-//     goToFirstSpeed : 1000,
- 
-//     // Navigation
-//     navigation : true,
-//     navigationText : ["prev","next"],
-//     pagination : false,
-//     paginationNumbers: false,
- 
-//     // Responsive
-//     responsive:{
-//         0:{
-//             items:1,
-//         },
-//         600:{
-//             items:3,
-//         },
-//         1000:{
-//             items:5,
-//             loop:false
-//         }
-//     }
- 
-// })
