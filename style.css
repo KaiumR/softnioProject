@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Styling Section Navigation Bar: [Start] */
+.btn{
+    border-radius: 0;
+}
+.nav_i{
+    background: linear-gradient(123.4deg, #BD1F17 40.8%, #A61D13 76.4%, #8E1B0F 120.69%);
+
+}
+.navbar-nav li a, .heading-txt{
+    color: white;
+}
+.btn-font-weight{
+    font-weight: bold;
+}
+/*Styling Section Navigation Bar: [End] */
+
+
+/*Styling Section (About): [Start] */
+.heroes{
+    background: linear-gradient(123.4deg, #BD1F17 40.8%, #A61D13 76.4%, #8E1B0F 120.69%);
+    overflow: hidden;
+}
+.heroes-content-part h1{
+    background: rgba(194, 51, 42, .4);
+    width: 150%;
+    /* font-size: 2.9rem;
+    line-height: 1.3 !important; */
+    position: relative;
+    color: white;
+    line-height: 1.3 !important;
+
+}
+.heroes-content-part p{
+    color: white;
+}
+.about-container{
+    display: flex;
+    gap: 40px;
+}
+.nav-tabs .nav-link.active{
+    background-color: #B52B1D;
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom:1px solid #B52B1D;
+}
+.nav-tabs{
+    --bs-nav-tabs-border-radius: 0px;
+    border-bottom:1px solid #B52B1D;
+}
+.about-txt h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.about-txt p{
+    text-align: justify;
+}
+.about-txt-btn{
+    display: flex;
+    gap: 40px;
+}
+.about-txt-btn-icn{
+    display: flex;
+    align-items: center;
+}
+.icn-font-weight{
+    font-weight: bold;
+}
+.about{
+    padding: 3.5rem 0 3.5rem 0;
+}
+.features-icon h2{
+    font-size: 1.5rem;
+}
+.icn-img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+    height: 67px;
+    width: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icn-img img{
+    height: 45px;
+}
+/*Styling Section (About): [End] */
+
+
+
+/*Styling Section Owl Carosoul: [Start] */
+.owl-carosoul-body{
+    background-color: #FBF7F2;
+    
+}
+.set-side-bg{
+    background-image: url(./asset/kezc_caom_220523.jpg);
+}
+.owl-carousel .owl-item img{
+    height: 250px;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav{
+    position: relative;
+    bottom: 336px;
+    text-align: right;
+}
+.red-txt{
+    color: red;
+    font-weight: bold;
+}
+.red-txt p{
+    margin-bottom: 0;
+}
+.red-txt svg{
+    height: 0.5em;
+    margin-bottom: 4px;
+}
+
+.owl-prev img, .owl-next img{
+    height: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+}
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: none;
+}
+.item :hover {
+    border: 2px solid red;
+}
+/*Styling Section Owl Carosoul: [End] */
+
+
+/*Styling Section Bike-booking: [start] */
+form{
+    display: grid;
+    gap: 20px;
+}
+.bike-booking-section{
+    background-image: url("./asset/bikeCover.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+.form-control{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+    border-radius: 0px;
+    color: #ffffff;
+}
+.form-group,.form-control::placeholder {
+    color: white;
+}
+.form-part{
+    width: 50%;
+}
+.form-row, .form-group{
+    display: flex;
+    justify-content: space-between;
+}
+.form-select{
+    background-color: #000000;
+    border-radius: 0px;
+    color: white;
+}
+.form-hw{
+    width: 48%;
+    height: 50px;
+}
+form button{
+    width: 140px;
+}
+.form-txt-heading{
+    color: white;
+}
+
+.txt-part{
+    width: 50%;
+}
+.txt-part .form-p p{
+    color: white;
+}
+.pad-y{
+    padding-top: 5rem !important;
+    padding-bottom: 4rem !important;
+}
+/*Styling Section Bike-booking: [End] */
+
+
+
+/*Styling Section Testimonial: [Start] */
+.testimonial-bdy{
+    background-color: #ffffff;
+}
+.testimonial-item{
+    display: flex;
+}
+.cs-testimonial{
+    width: 30%;
+}
+.testimonial-item .item{
+    width: 70%;
+}
+.testimonial .owl-theme .owl-nav{
+    bottom: 522px;
+}
+.owl-carousel .testimonial-item img{
+    height: 400px;
+}
+.testimonial-item .item :hover {
+    border: 0px;
+}
+/*Styling Section Testimonial: [End] */
+
+
+
+/*Styling Section Contact Us: [Start] */
+.contact-us{
+    background-image: url("./asset/cool-motorcycle-outdoors.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+.contact-information{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 6rem;
+}
+.contact-container{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.contact-us-heading{
+    color: white;
+    text-align: center;
+}
+.contact-icon{
+    color: white;
+    text-align: center;
+}
+.contact-icon img{
+    height: 30px;
+    margin-bottom: 20px;
+}
+.contact-information p{
+    margin-bottom: 0;
+}
+.contact-us-heading h6{
+    font-size: 35px;
+}
+.social-icons img{
+    height: 18px;
+    width: 18px;
+}
+.social-icons{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.fb{
+    height: 53px;
+    width: 53px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+/*Styling Section Contact Us: [End] */
+
+
+.boy-on-bike{
+    visibility: hidden;
+    height: 182px;
+    position: absolute;
+    left: -34px;
+    top: 1501px;
+    transform: rotate(80deg);
+    z-index: 1;
+}
+.road-to-heaven{
+    visibility: hidden;
+    height: 182px;
+    position: absolute;
+    left: -108px;
+    top: 1442px;
+    transform: rotate(-20deg);
+}
+
+
+@media (max-width: 991px){
+    .heroes-content-part h1{
+        width: 100%;
+        background: none;
+        font-size: 2.2rem;
+    }
+    .about-container {
+        display: grid;
+        gap: 40px;
+    }
+    .heroes-img{
+        width: 100%;
+    }
+    .image-part img{
+        width: 100%;
+        object-fit: contain;
+    }
+    .contact-information{
+        display: grid;
+        justify-content: normal;
+        padding-bottom: 6rem;
+        gap: 35px;
+    }
+    .contact-container{
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+}
+@media (max-width: 767px){
+    .heroes-content-part h1{
+        width: 100%;
+        background: none;
+        font-size: 2.5rem;
+    }
+    .heroes-img{
+        width: 100%;
+    }
+    .heroes-button{
+        width: 150px;
+    }
+    .image-part img{
+        width: 100%;
+    }
+    .owl-theme .owl-dots, .owl-theme .owl-nav{
+        position: static;
+        bottom: 0;
+        text-align: center;
+    }
+    .owl-carousel .owl-item img {
+        height: 350px;
+    }
+    .form-part{
+        width: 100%;
+    }
+    .form-row, .form-group{
+        display: grid;
+        justify-content: normal;
+        gap: 20px;
+    }
+    .form-hw {
+        width: 100%;
+    }
+    .txt-part{
+         width: 100%;
+    }
+    .testimonial-item{
+        display: grid;
+    }
+    .cs-testimonial{
+        order: 2;
+        width: 100%;
+    }
+    .testimonial-item .item{
+        width: 100%;
+        margin-bottom: -6px;
+    }
+    .owl-carousel .testimonial-item img{
+        height: 450px;
+    }
+
+}
+
+
+
+
+@media (min-width: 992px){
+    .heroes-content-part h1{
+        width: 135%;
+        font-size: 3rem;
+        background: rgba(194, 51, 42, .4);
+    }
+}
+@media (min-width: 1200px){
+    .heroes-content-part h1{
+        font-size: 3.5rem;
+        width: 130%;
+    }
+}
+@media (min-width: 1300px){
+    .boy-on-bike{
+        visibility: visible;
+    }
+    .road-to-heaven{
+        visibility: visible;
+    }
+}
+@media (min-width: 1400px){
+    .heroes-content-part h1{
+        font-size: 3rem;
+        width: 138%;
+    }
+    .features-icon h2 {
+        font-size: 1.3rem;
+    }
+}
+
+/*
+@media (max-width: 991px){
+    .heroes-content-part{
+        position: static;
+    }
+    .heroes-img{
+        float: none;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .heroes-content-part h1 {
+        font-size: 2.9rem;
+        background: none;
+        width: 100%;
+    }
+    .heroes-content-part p {
+        font-size: 1.7rem;
+        text-align: left;
+        width: 80%;
+    }
+}
+@media (max-width: 767px){
+    .heroes-content-part{
+        position: static;
+    }
+    .heroes-img{
+        float: none;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .heroes-content-part h1 {
+        font-size: 2.8rem;
+        background: none;
+        width: 100%;
+    }
+    .heroes-content-part p {
+        font-size: 1.7rem;
+        text-align: left;
+        width: 100%;
+    }
+    .heroes-content-part button{
+        width: 150px;
+    }
+}
+@media (min-width: 992px){
+    .heroes-content-part h1{
+        font-size: 2.1rem;
+    }
+}
+@media (min-width: 1100px){
+    .heroes-content-part h1{
+        font-size: 2.3rem;
+    }
+}
+@media (min-width: 1200px){
+    .heroes-content-part h1{
+        font-size: 2.6rem;
+    }
+    .heroes-content-part{
+        left: 250px;
+    }
+}
+@media (min-width: 1400px){
+    .heroes-content-part h1{
+        font-size: 3rem;
+    }
+    .heroes-content-part{
+        left: 250px;
+    }
+}
+*/
