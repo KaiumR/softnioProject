@@ -6,4 +6,4 @@ The project is built on HTML, CSS, and a bit of jQuery. I have used the Bootstra
 I have learned a lot after doing this project, and I enjoyed it during the whole period. The most difficult part of this project was content collection. I had to spend a good amount of time to collect project content. There was not much room to change the design; however, the design for tablet devices isn't precisely mentioned in the Figma file, so you might not find the design as you expected for tablet devices. It was a good few days with this project, but I am not satisfied with my output; there is a long way to go.
 
 Regards,
-Md. Abudl Kaium
+Md. Abdul Kaium
